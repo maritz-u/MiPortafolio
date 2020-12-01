@@ -13,7 +13,7 @@ export const initRouter = () => {
 }
 
 export const changeRoute = (hash) => {
-    const router = hash.substring(2);
+    const router = hash.substring(1);
     console.log(router);
     const containerRoot = document.getElementById('root');
     containerRoot.innerHTML = '';
@@ -23,13 +23,13 @@ export const changeRoute = (hash) => {
         containerRoot.appendChild(primeraVista());
         break;
     case 'Proyecto':
-        Proyecto();
+        containerRoot.innerHTML= Proyecto;
         break;
     case 'Sobremi':
-        Sobremi();
+        containerRoot.innerHTML= Sobremi;
         break;
     case 'Contacto':
-        Contacto();
+        containerRoot.innerHTML= Contacto;
         break;
    
     default:

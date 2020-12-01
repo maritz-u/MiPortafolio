@@ -1,9 +1,4 @@
-export const Proyecto = () => {
-    const divVistaProyectos=document.createElement("div");
-    const vistaTrabajos = 
+export const Proyecto =
     `<div>
     <p>Aquí van los proyectos jiji<p>
-    <div> `
- divVistaProyectos.innerHTML= vistaTrabajos;   
- return vistaTrabajos;    
-}
+    <div> `     

@@ -1,5 +1,10 @@
-export const Contacto = 
-    `<div>
+export const Contacto = `  <ul class="snip1459">
+    <li><a href="#">Inicio</a></li>
+    <li class="current"><a href="#">Sobre mí</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#">Proyectos</a>
+  </ul>
+  
     <figure class="snip0041">
   <img src="./Imagen/telefono.jpg" alt="sample5"/> 
   <div class="icons">
@@ -11,12 +16,9 @@ export const Contacto =
     <h2>Maritzu <span>Contacto</span></h2>
     <p>Te interesa trabajar, ¡Conéctemos!</p>
   </figcaption> 
-</figure>
-    <div> `
+</figure> `;
 
-/* Demo purposes only */  
-$("figure").mouseleave(
-    function () {
-      $(this).removeClass("hover");
-    }
-  );
+/* Demo purposes only */
+$("figure").mouseleave(function () {
+  $(this).removeClass("hover");
+});

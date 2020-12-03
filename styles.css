@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* css de Contenedor de Imagenes */
 .contenedorPrincipal{
   display: flex;
 }

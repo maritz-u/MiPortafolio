@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+.snip1459{
+    text-decoration: none;
+    color: #8c8c8c;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    text-align: right;
+}

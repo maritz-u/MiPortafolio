@@ -1,5 +1,10 @@
-export const Sobremi = 
-    `<figure class="snip1515">
+export const Sobremi = ` <ul class="snip1459">
+    <li><a href="#">Inicio</a></li>
+    <li class="current"><a href="#">Sobre mí</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#">Proyectos</a>
+  </ul>
+    <figure class="snip1515">
     <div class="profile-image"><img src="./Imagen/imgsobremi.jpg" alt="sample47" /></div>
     <figcaption>
       <h3>Maritzu Zúñiga</h3>
@@ -16,11 +21,9 @@ export const Sobremi =
   <h2>de soluciones tecnológicas. Me encantan los desafíos y</h2>
   <h2>aprender. Soy muy curiosa y proactiva, creo en la búsqueda</h2>
   <h2>constante del conocimiento como forma de vida.</h2>
-  </div>`
- 
+  </div>`;
+
 /* Demo purposes only */
-$(".hover").mouseleave(
-    function () {
-      $(this).removeClass("hover");
-    }
-  );
+$(".hover").mouseleave(function () {
+  $(this).removeClass("hover");
+});

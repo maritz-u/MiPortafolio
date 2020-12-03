@@ -1,5 +1,11 @@
-export const Proyecto =
-    `<div>
+export const Proyecto = `
+    <ul class="snip1459">
+    <li><a href="#">Inicio</a></li>
+    <li class="current"><a href="#">Sobre mí</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#">Proyectos</a>
+  </ul>
+    <div>
     <figure class="snip1295"><img src="./Imagen/comidaparatodos.png" alt="sample67"/>
   <div class="border one">
     <div></div>
@@ -34,12 +40,9 @@ export const Proyecto =
     <div></div>
   </div><a href="http://facilito.online/"></a>
 </figure>
-    `     
+    `;
 
 /* Demo purposes only */
-  $(".hover").mouseleave(
-    function () {
-      $(this).removeClass("hover");
-    }
-  );
-  
+$(".hover").mouseleave(function () {
+  $(this).removeClass("hover");
+});

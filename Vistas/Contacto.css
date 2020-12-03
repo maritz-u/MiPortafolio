@@ -132,6 +132,7 @@ figure.snip0041.hover a:nth-child(3) i {
 /* Demo purposes only */
 html {
   height: 100%;
+  color: #555555;
 }
 body {
   display: flex;

@@ -5,44 +5,52 @@ export const Proyecto = `
     <li><a href="#">Contacto</a></li>
     <li><a href="#">Proyectos</a>
   </ul>
-    <div>
-    <figure class="snip1295"><img src="./Imagen/comidaparatodos.png" alt="sample67"/>
-  <div class="border one">
-    <div></div>
+  <figure class="snip1195">
+  <h4>Comida para todos </h4>
+  <div class="image">
+    <img src="./Imagen/comidaparatodos.png" alt="sq-sample4"/>
   </div>
-  <div class="border two">
-    <div></div>
-  </div><a href="https://comidaparatodosreactivas.web.app/"></a>
+  <figcaption>
+    <p>
+      I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.
+    </p>
+  </figcaption><a href="https://comidaparatodosreactivas.web.app/" class="add-to-cart">Visualizar</a>
 </figure>
-<figure class="snip1295 hover"><img src="./Imagen/datalovers.png" alt="sample84"/>
-  <div class="border one">
-    <div></div>
-  </div>
-  <div class="border two">
-    <div></div>
-  </div><a href="https://maritz-u.github.io/SCL014-data-lovers/src/index.html"></a>
-</figure>
-<figure class="snip1295"><img src="./Imagen/páginaReia.png" alt="sample68"/>
-  <div class="border one">
-    <div></div>
-  </div>
-  <div class="border two">
-    <div></div>
-  </div><a href="https://cafeteriareia-6c8ba.web.app/"></a>
-</figure>
-    <div>
-    <div>
-    <figure class="snip1295"><img src="./Imagen/facilito.png" alt="sample67"/>
-  <div class="border one">
-    <div></div>
-  </div>
-  <div class="border two">
-    <div></div>
-  </div><a href="http://facilito.online/"></a>
-</figure>
-    `;
 
-/* Demo purposes only */
-$(".hover").mouseleave(function () {
-  $(this).removeClass("hover");
-});
+<figure class="snip1195">
+<h4>PokemonLover's </h4>
+<div class="image">
+  <img src="./Imagen/pokebola.png" alt="sq-sample4"/>
+</div>
+<figcaption>
+  <p>
+    I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.
+  </p>
+</figcaption><a href="https://maritz-u.github.io/SCL014-data-lovers/src/index.html" class="add-to-cart">Visualizar</a>
+</figure>
+
+<figure class="snip1195">
+<h4>Cafetería-Reía</h4>
+<div class="image">
+  <img src="./Imagen/reia.png" alt="sq-sample4"/>
+</div>
+<figcaption>
+  <p>
+    I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.
+  </p>
+</figcaption><a href="https://cafeteriareia-6c8ba.web.app/" class="add-to-cart">Visualizar</a>
+</figure>
+    
+<figure class="snip1195">
+<h4>FacilitoApp</h4>
+<div class="image">
+  <img src="./Imagen/facilito.png" alt="sq-sample4"/>
+</div>
+<figcaption>
+  <p>
+    I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.
+  </p>
+</figcaption><a href="http://facilito.online/" class="add-to-cart">AVisualizar</a>
+</figure>`;
+
+

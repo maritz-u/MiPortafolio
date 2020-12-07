@@ -9,7 +9,6 @@ figure.snip0041 {
   /* max-width: 1440px;
   max-height: 864px; */
   width: 100%;
-  background: #000000;
 }
 figure.snip0041 * {
   -webkit-box-sizing: border-box;
@@ -29,6 +28,7 @@ figure.snip0041 figcaption {
   width: 50%;
   height: 100%;
   background: #ffffff;
+  margin-left: 10%;
 }
 figure.snip0041 figcaption h2,
 figure.snip0041 figcaption p {
@@ -40,9 +40,8 @@ figure.snip0041 figcaption p {
   margin: 0 40px 0 20px;
 }
 figure.snip0041 figcaption h2 {
-  font-size: 1.3em;
+  font-size: 2.3em;
   bottom: 50%;
-  right: 0;
   font-weight: 300;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -52,8 +51,11 @@ figure.snip0041 figcaption h2 span {
 }
 figure.snip0041 figcaption p {
   top: 50%;
-  font-size: 0.9em;
+  font-size: 1.9em;
   opacity: 0.8;
+}
+.imagen{
+width: 50%;
 }
 figure.snip0041 .icons {
   padding: 5px;
@@ -135,7 +137,6 @@ html {
   color: #555555;
 }
 body {
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: wrap;

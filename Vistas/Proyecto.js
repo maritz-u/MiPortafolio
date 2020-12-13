@@ -1,9 +1,9 @@
 export const Proyecto = `
     <ul class="snip1459">
-    <li><a href="#">Inicio</a></li>
-    <li class="current"><a href="#">Sobre mí</a></li>
-    <li><a href="#">Contacto</a></li>
-    <li><a href="#">Proyectos</a>
+    <li><a href="#Presentacion">Inicio</a></li>
+    <li class="current"><a href="#Sobremi">Sobre mí</a></li>
+    <li><a href="#Contacto">Contacto</a></li>
+    <li><a href="#Proyecto">Proyectos</a>
   </ul>
   <figure class="snip1195">
   <h4>Comida para todos </h4>
@@ -50,7 +50,7 @@ export const Proyecto = `
   <p>
     I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.
   </p>
-</figcaption><a href="http://facilito.online/" class="add-to-cart">AVisualizar</a>
+</figcaption><a href="http://facilito.online/" class="add-to-cart">Visualizar</a>
 </figure>`;
 
 

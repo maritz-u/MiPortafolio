@@ -1,8 +1,8 @@
 export const Sobremi = ` <ul class="snip1459">
-    <li><a href="#">Inicio</a></li>
-    <li class="current"><a href="#">Sobre mí</a></li>
-    <li><a href="#">Contacto</a></li>
-    <li><a href="#">Proyectos</a>
+    <li><a href="#Presentacion">Inicio</a></li>
+    <li class="current"><a href="#Sobremi">Sobre mí</a></li>
+    <li><a href="#Contacto">Contacto</a></li>
+    <li><a href="#Proyecto">Proyectos</a>
   </ul>
     <figure class="snip1515">
     <div class="profile-image"><img src="./Imagen/imgsobremi.jpg" alt="sample47" /></div>
@@ -10,8 +10,8 @@ export const Sobremi = ` <ul class="snip1459">
       <h3>Maritzu Zúñiga</h3>
       <h4>Developer</h4>
       <p>"A partir de cierto punto ya no hay vuelta atrás. Hay que llegar a ese punto."</p>
-      <div class="icons"><a href="#"><i class="ion-social-reddit"></i></a>
-        <a href="#"> <i class="ion-social-twitter"></i></a>
+      <div class="icons"><a href="https://www.linkedin.com/in/maritzu-z%C3%BA%C3%B1iga/"><i class="ion-social-linkedin"></i></a>
+        <a href="https://github.com/maritz-u"> <i class="ion-social-github"></i></a>
         <a href="#"> <i class="ion-social-vimeo"></i></a>
       </div>
     </figcaption>

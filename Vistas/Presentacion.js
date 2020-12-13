@@ -2,10 +2,10 @@ export const primeraVista = () => {
   const Presentacion = document.createElement("div");
   const vistaPresentacion = `
     <ul class="snip1459">
-  <li><a href="#">Inicio</a></li>
-  <li class="current"><a href="#">Sobre mí</a></li>
-  <li><a href="#">Contacto</a></li>
-  <li><a href="#">Proyectos</a>
+  <li><a href="/#Presentacion">Inicio</a></li>
+  <li class="current"><a href="/#Sobremi">Sobre mí</a></li>
+  <li><a href="/#Contacto">Contacto</a></li>
+  <li><a href="/#Proyecto">Proyectos</a>
 </ul>
     
     <div class="contenedorPrincipal">

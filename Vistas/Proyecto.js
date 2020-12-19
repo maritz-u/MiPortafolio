@@ -1,11 +1,5 @@
 export const Proyecto = `
-    <ul class="snip1459">
-    <li><a href="#Presentacion">Inicio</a></li>
-    <li class="current"><a href="#Sobremi">Sobre mí</a></li>
-    <li><a href="#Contacto">Contacto</a></li>
-    <li><a href="#Proyecto">Proyectos</a>
-  </ul>
-  <figure class="snip1195">
+  <figure class="contenedorProyecto">
   <h4>Comida para todos </h4>
   <div class="image">
     <img src="./Imagen/comidaparatodos.png" alt="sq-sample4"/>
@@ -17,7 +11,7 @@ export const Proyecto = `
   </figcaption><a href="https://comidaparatodosreactivas.web.app/" class="add-to-cart">Visualizar</a>
 </figure>
 
-<figure class="snip1195">
+<figure class="contenedorProyecto">
 <h4>PokemonLover's </h4>
 <div class="image">
   <img src="./Imagen/pokebola.png" alt="sq-sample4"/>
@@ -29,7 +23,7 @@ export const Proyecto = `
 </figcaption><a href="https://maritz-u.github.io/SCL014-data-lovers/src/index.html" class="add-to-cart">Visualizar</a>
 </figure>
 
-<figure class="snip1195">
+<figure class="contenedorProyecto">
 <h4>Cafetería-Reía</h4>
 <div class="image">
   <img src="./Imagen/reia.png" alt="sq-sample4"/>
@@ -41,7 +35,7 @@ export const Proyecto = `
 </figcaption><a href="https://cafeteriareia-6c8ba.web.app/" class="add-to-cart">Visualizar</a>
 </figure>
     
-<figure class="snip1195">
+<figure class="contenedorProyecto">
 <h4>FacilitoApp</h4>
 <div class="image">
   <img src="./Imagen/facilito.png" alt="sq-sample4"/>

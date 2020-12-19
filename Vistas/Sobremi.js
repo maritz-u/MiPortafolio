@@ -1,9 +1,4 @@
-export const Sobremi = ` <ul class="snip1459">
-    <li><a href="#Presentacion">Inicio</a></li>
-    <li class="current"><a href="#Sobremi">Sobre mí</a></li>
-    <li><a href="#Contacto">Contacto</a></li>
-    <li><a href="#Proyecto">Proyectos</a>
-  </ul>
+export const Sobremi = `
     <figure class="snip1515">
     <div class="profile-image"><img src="./Imagen/imgsobremi.jpg" alt="sample47" /></div>
     <figcaption>
@@ -22,8 +17,3 @@ export const Sobremi = ` <ul class="snip1459">
   <h2>aprender. Soy muy curiosa y proactiva, creo en la búsqueda</h2>
   <h2>constante del conocimiento como forma de vida.</h2>
   </div>`;
-
-/* Demo purposes only */
-$(".hover").mouseleave(function () {
-  $(this).removeClass("hover");
-});

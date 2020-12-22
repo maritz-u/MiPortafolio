@@ -32,16 +32,6 @@ figure.contenedorProyecto figcaption {
   margin: 5px auto;
 }
 
-figure.contenedorProyecto h4 {
-  position: absolute;
-  width: 50%;
-  top: 10px;
-  text-transform: uppercase;
-  font-weight: 400;
-  color: #ffffff;
-  letter-spacing: 1px;
-  z-index: 1;
-}
 figure.contenedorProyecto p {
   font-size: 0.7em;
   font-weight: 500;

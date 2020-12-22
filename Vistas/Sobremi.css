@@ -1,4 +1,11 @@
+.contenedorSobreMi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .snip1515 {
+  flex: 1;
   font-family: 'Open Sans', Arial, sans-serif;
   position: relative;
   margin: 10px;
@@ -47,10 +54,11 @@
 }
 
 .snip1515 h3 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.3em;
-  font-family: 'Playfair Display', Arial, sans-serif;
-}
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #666;
+} 
 
 .snip1515 h4 {
   color: #8c8c8c;
@@ -85,6 +93,7 @@
 }
 
 .description{
+  flex: 1;
   font-family: 'Open Sans', Arial, sans-serif;
   text-align: center;
   font-size: 14px;
